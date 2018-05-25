@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.summit.women_safety.signUp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg1">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="Sign Up"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:padding="12dp"
+            android:textColor="#031a99"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/e1"
+            android:background="@drawable/design"
+            android:layout_marginBottom="15sp" />
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/e2"
+            android:background="@drawable/design"
+            android:layout_marginBottom="15sp"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/e3"
+            android:background="@drawable/design"
+            android:layout_marginBottom="15sp"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:maxLength="10"
+            android:id="@+id/e4"
+            android:background="@drawable/design"
+            android:layout_marginBottom="15sp"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:password="true"
+            android:id="@+id/e5"
+            android:layout_marginBottom="18sp"
+            android:background="@drawable/design" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add mobile numbers to be called at the time of emergency: "
+            android:background="#fcfcfc"
+            android:id="@+id/text_view1"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="15sp"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:maxLength="10"
+            android:id="@+id/e6"
+            android:background="@drawable/design"
+            android:layout_marginBottom="15sp"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:maxLength="10"
+            android:id="@+id/e7"
+            android:background="@drawable/design"
+            android:layout_marginBottom="15sp"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:maxLength="10"
+            android:id="@+id/e8"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/design"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:text="Sign Up"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25sp"
+            android:onClick="signUp"
+            android:id="@+id/b3"
+            android:background="@drawable/bg"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

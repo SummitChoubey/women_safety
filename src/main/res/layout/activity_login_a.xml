@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.summit.women_safety.login_a"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:layout_gravity="end"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/bg"
+            android:id="@+id/logout"/>
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:src="@drawable/loc8"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"/>
+
+        <Button
+            android:layout_width="115sp"
+            android:layout_height="wrap_content"
+            android:text="get Location"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:id="@+id/getLocation"
+            android:background="@drawable/design"
+            android:textColor="#031a99"/>
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="170sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50sp"
+            android:id="@+id/text_view2"
+            android:textSize="20sp"
+            android:background="@drawable/bg"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:hint="Current Location" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_button"
+            android:text="send"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/design"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

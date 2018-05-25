@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.summit.women_safety.women_a"
+    android:background="@drawable/bg1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/ll1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Women Safety"
+                android:layout_gravity="center"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15sp"
+                android:id="@+id/txt1"
+                android:textColor="#031a99"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="3dp"
+                android:background="#7c7a7a"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15sp"
+                android:id="@+id/view1">
+
+            </View>
+
+            <ImageView
+                android:layout_width="180sp"
+                android:layout_height="150sp"
+                android:src="@drawable/women"
+                android:layout_gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingTop="12dp"
+                android:id="@+id/img1" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/rl1"
+                android:padding="20dp">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="65sp"
+                    android:id="@+id/b1"
+                    android:text="Log In"
+                    android:onClick="logIn"
+                    android:background="@drawable/bg"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="65sp"
+                    android:id="@+id/b2"
+                    android:layout_toRightOf="@id/b1"
+                    android:text="Sign Up"
+                    android:onClick="signUp"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="8sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

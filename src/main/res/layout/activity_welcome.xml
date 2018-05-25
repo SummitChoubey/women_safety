@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.summit.women_safety.welcome"
+    android:background="@drawable/bg1"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:paddingBottom="15sp"
+            android:textColor="#031a99"/>
+
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Username"
+            android:id="@+id/edit1"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/design"
+            android:layout_marginBottom="15sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:id="@+id/edit2"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/design"
+            android:layout_marginBottom="15sp"
+            android:gravity="center"
+            android:password="true"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="65sp"
+            android:id="@+id/b1"
+            android:text="Log In"
+            android:onClick="logIn"
+            android:layout_gravity="center"
+            android:background="@drawable/bg"
+            android:layout_marginTop="10sp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
